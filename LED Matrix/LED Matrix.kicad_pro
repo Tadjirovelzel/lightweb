@@ -427,6 +427,15 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "ba01076e-9f83-4ae6-b57e-437c779be6ad",
+      ""
+    ],
+    [
+      "72024534-bf1a-46d0-a46d-d58969495be4",
+      "PixelSide"
+    ]
+  ],
   "text_variables": {}
 }
