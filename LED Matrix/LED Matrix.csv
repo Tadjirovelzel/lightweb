@@ -1,0 +1,6 @@
+Comment,Designator,Footprint,LCSC Part #
+"Screw_Terminal_01x03 Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",In1,TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal,
+"Screw_Terminal_01x02 Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",JBottom1,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,
+"Screw_Terminal_01x02 Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)",JTop1,TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal,
+"Screw_Terminal_01x03 Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)",Out1,TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal,
+SK6812 RGB LED with integrated controller,Pix1,LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm,

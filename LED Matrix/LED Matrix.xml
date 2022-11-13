@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>F:\Work\LED Matrix Freedom\LED Matrix\LED Matrix.kicad_sch</source>
+    <date>11/13/2022 10:18:52 PM</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>LED Matrix.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PixelSide/" tstamps="/72024534-bf1a-46d0-a46d-d58969495be4/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>pixelboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="In1">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PixelSide"/>
+      <property name="Sheetfile" value="pixelboard.kicad_sch"/>
+      <sheetpath names="/PixelSide/" tstamps="/72024534-bf1a-46d0-a46d-d58969495be4/"/>
+      <tstamps>b0996e46-64c3-4cf8-af0b-b69b8c689117</tstamps>
+    </comp>
+    <comp ref="JBottom1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PixelSide"/>
+      <property name="Sheetfile" value="pixelboard.kicad_sch"/>
+      <sheetpath names="/PixelSide/" tstamps="/72024534-bf1a-46d0-a46d-d58969495be4/"/>
+      <tstamps>487f6f00-552c-443a-9d76-9233987756d1</tstamps>
+    </comp>
+    <comp ref="JTop1">
+      <value>Screw_Terminal_01x02</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x02" description="Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PixelSide"/>
+      <property name="Sheetfile" value="pixelboard.kicad_sch"/>
+      <sheetpath names="/PixelSide/" tstamps="/72024534-bf1a-46d0-a46d-d58969495be4/"/>
+      <tstamps>3e207536-9ea6-4cde-9352-9a3051794872</tstamps>
+    </comp>
+    <comp ref="Out1">
+      <value>Screw_Terminal_01x03</value>
+      <footprint>TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x03" description="Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="PixelSide"/>
+      <property name="Sheetfile" value="pixelboard.kicad_sch"/>
+      <sheetpath names="/PixelSide/" tstamps="/72024534-bf1a-46d0-a46d-d58969495be4/"/>
+      <tstamps>7998971e-c508-4b04-a0c2-1f68737fad21</tstamps>
+    </comp>
+    <comp ref="Pix1">
+      <value>SK6812</value>
+      <footprint>LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</footprint>
+      <datasheet>https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf</datasheet>
+      <libsource lib="LED" part="SK6812" description="RGB LED with integrated controller"/>
+      <property name="Sheetname" value="PixelSide"/>
+      <property name="Sheetfile" value="pixelboard.kicad_sch"/>
+      <sheetpath names="/PixelSide/" tstamps="/72024534-bf1a-46d0-a46d-d58969495be4/"/>
+      <tstamps>76c936f0-d0b6-4dc9-9a01-f54da68a42a5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Screw_Terminal_01x02">
+      <description>Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x03">
+      <description>Generic screw terminal, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="SK6812">
+      <description>RGB LED with integrated controller</description>
+      <docs>https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf</docs>
+      <footprints>
+        <fp>LED*SK6812*PLCC*5.0x5.0mm*P3.2mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SK6812</field>
+        <field name="Footprint">LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm</field>
+        <field name="Datasheet">https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="DIN" type="input"/>
+        <pin num="3" name="VDD" type="power_in"/>
+        <pin num="4" name="DOUT" type="output"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>F:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="LED">
+      <uri>F:\Program Files\KiCad\6.0\share\kicad\symbols\/LED.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/PixelSide/5V">
+      <node ref="In1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="JBottom1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JTop1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Out1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Pix1" pin="3" pinfunction="VDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="/PixelSide/Data">
+      <node ref="In1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Pix1" pin="2" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="3" name="/PixelSide/gnd">
+      <node ref="In1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JBottom1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="JTop1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Out1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Pix1" pin="1" pinfunction="VSS" pintype="power_in"/>
+    </net>
+    <net code="7" name="Net-(Out1-Pad2)">
+      <node ref="Out1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Pix1" pin="4" pinfunction="DOUT" pintype="output"/>
+    </net>
+  </nets>
+</export>

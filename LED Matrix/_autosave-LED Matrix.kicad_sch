@@ -1,0 +1,67 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid ba01076e-9f83-4ae6-b57e-437c779be6ad)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (global_label "5VPixel" (shape input) (at 99.06 80.01 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 09d460ca-5a72-4925-856a-c1e9ca0d909c)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 98.9806 70.6421 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "GNDPixel" (shape input) (at 105.41 80.01 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2e0966fe-3511-4e8d-90fc-63345e53c81f)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 105.3306 69.0698 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "DataPixel" (shape input) (at 92.71 80.01 90) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ca43c78f-8b60-4f30-8532-2447188dc482)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 92.6306 68.6464 90)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+
+  (sheet (at 83.82 66.04) (size 31.75 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 72024534-bf1a-46d0-a46d-d58969495be4)
+    (property "Sheet name" "PixelSide" (id 0) (at 83.82 65.3284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "pixelboard.kicad_sch" (id 1) (at 83.82 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/72024534-bf1a-46d0-a46d-d58969495be4" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/72024534-bf1a-46d0-a46d-d58969495be4/b0996e46-64c3-4cf8-af0b-b69b8c689117"
+      (reference "In1") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal")
+    )
+    (path "/72024534-bf1a-46d0-a46d-d58969495be4/487f6f00-552c-443a-9d76-9233987756d1"
+      (reference "JBottom1") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal")
+    )
+    (path "/72024534-bf1a-46d0-a46d-d58969495be4/3e207536-9ea6-4cde-9352-9a3051794872"
+      (reference "JTop1") (unit 1) (value "Screw_Terminal_01x02") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal")
+    )
+    (path "/72024534-bf1a-46d0-a46d-d58969495be4/7998971e-c508-4b04-a0c2-1f68737fad21"
+      (reference "Out1") (unit 1) (value "Screw_Terminal_01x03") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal")
+    )
+    (path "/72024534-bf1a-46d0-a46d-d58969495be4/76c936f0-d0b6-4dc9-9a01-f54da68a42a5"
+      (reference "Pix1") (unit 1) (value "SK6812") (footprint "LED_SMD:LED_SK6812_PLCC4_5.0x5.0mm_P3.2mm")
+    )
+  )
+)
